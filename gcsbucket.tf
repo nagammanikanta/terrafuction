@@ -1,8 +1,12 @@
 
 resource "google_storage_bucket" "gcs-bucket" {
-  name = "pavan-gcs-bucket"
+  name = var.gcs-bucket
 
-  location      = "US"
+  location      = var.location 
+  
+ 
+
+  uniform_bucket_level_access = true
   force_destroy = true
 
   lifecycle_rule {

@@ -21,4 +21,10 @@ variable "gcs-bucket" {
   description = "The name of the GCS bucket"
   default     = "abstract-stage-417502-bucket"
 }
+variable "location" {
+  type = string
+  description = "The location of the cluster"
+default = "US"
+  
+}
 
