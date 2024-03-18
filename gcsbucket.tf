@@ -1,3 +1,4 @@
+/*
 resource "google_storage_bucket" "gcs-bucket" {
   name = "pavan-gcs-bucket"
 
@@ -22,3 +23,4 @@ resource "google_storage_bucket" "gcs-bucket" {
     }
   }
 }
+*/
