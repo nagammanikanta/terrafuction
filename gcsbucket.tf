@@ -7,7 +7,7 @@ resource "google_storage_bucket" "gcs-bucket" {
 
   lifecycle_rule {
     condition {
-      age = 3
+      age = 10
     }
     action {
       type = "Delete"
@@ -16,7 +16,7 @@ resource "google_storage_bucket" "gcs-bucket" {
 
   lifecycle_rule {
     condition {
-      age = 1
+      age = 3
     }
     action {
       type = "AbortIncompleteMultipartUpload"
