@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "gcs-bucket" {
-  name          = "pavan-gcs-bucket"
+  name = "pavan-gcs-bucket"
 
   location      = "US"
   force_destroy = true
