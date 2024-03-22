@@ -22,10 +22,7 @@ output "ip" {
   value     = google_compute_subnetwork.subnet-tf.ip_cidr_range
   sensitive = true
 }
-output "firewall" {
-  value     = google_compute_firewall.firewall-terra
-  sensitive = true
-}
+
 
 
 
