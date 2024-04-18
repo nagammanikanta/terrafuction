@@ -1,5 +1,5 @@
 
-/*
+
 resource "google_compute_network_peering" "peering1" {
   name         = var.peering1
   network      = google_compute_network.vpc-1.self_link
@@ -41,4 +41,3 @@ resource "google_compute_network" "vpc-3" {
   name                    = var.vpc-3
   auto_create_subnetworks = var.auto_create_subnetworks
 }
-*/
