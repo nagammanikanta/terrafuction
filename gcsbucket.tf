@@ -1,4 +1,4 @@
-
+/*
 resource "google_storage_bucket" "gcs-bucket" {
   name = var.gcs-bucket
 
@@ -27,4 +27,4 @@ resource "google_storage_bucket" "gcs-bucket" {
     }
   }
 }
-
+*/
