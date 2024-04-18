@@ -41,3 +41,4 @@ resource "google_compute_network" "vpc-3" {
   name                    = var.vpc-3
   auto_create_subnetworks = var.auto_create_subnetworks
 }
+
